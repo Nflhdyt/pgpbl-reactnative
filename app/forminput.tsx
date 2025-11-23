@@ -26,8 +26,14 @@ const TextInputExample = () => {
           onChangeText={onChangeNumber}
           placeholder="Isikan NIM-mu disini"
         />
+        <Text style={styles.inputNIM}>Kelas</Text>
+        <TextInput
+          style={styles.input}
+          onChangeText={onChangeNumber}
+          placeholder="Isikan Kelas-mu disini"
+        />
         <View style={styles.button}>
-         <Button
+        <Button
           title="Save"
         />
         </View>

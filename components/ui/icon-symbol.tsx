@@ -21,6 +21,11 @@ const MAPPING = {
   'add.circle.fill': 'assignment-add',
   'person': 'person-4',
   'food':'fastfood',
+  'map.fill': 'map-marked-alt',
+  'list' : 'list',
+  'gmap.fill': 'map-marker-alt',
+  'trash': 'delete-outline',
+  'plus': 'add-circle',
 } as unknown as IconMapping;
 
 /**
